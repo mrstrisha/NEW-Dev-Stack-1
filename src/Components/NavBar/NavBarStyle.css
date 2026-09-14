@@ -1,0 +1,99 @@
+.navbar {
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  background: rgba(255, 255, 255, 0.96);
+  border-bottom: 1px solid var(--light-gray);
+}
+
+.nav-container {
+  max-width: 1200px;
+  margin: auto;
+  height: 72px;
+  padding: 0 24px;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.brand {
+  display: flex;
+  align-items: center;
+  gap: 9px;
+
+  font-size: 21px;
+  font-weight: 800;
+}
+
+.brand-icon {
+  width: 34px;
+  height: 34px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  border-radius: 9px;
+  background: var(--brand-gradient);
+  color: white;
+
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.nav-links {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+
+.nav-links a {
+  color: #4b5563;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.nav-links a:hover {
+  color: #7c3aed;
+}
+
+.auth-buttons {
+  display: flex;
+  align-items: center;
+  gap: 18px;
+}
+
+.sign-in {
+  border: none;
+  background: transparent;
+  color: #374151;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.sign-up {
+  border: none;
+  color: white;
+  background: var(--brand-gradient);
+
+  padding: 11px 21px;
+  border-radius: 30px;
+
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.hamburger {
+  display: none;
+
+  border: none;
+  background: transparent;
+
+  font-size: 25px;
+  color: #111827;
+}
+
+.mobile-menu {
+  display: none;
+}

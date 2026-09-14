@@ -1,0 +1,63 @@
+@import "tailwindcss";
+
+
+:root {
+  --brand-gradient: linear-gradient(
+    90deg,
+    #ff7a18,
+    #ff3d81,
+    #7c3aed
+  );
+
+  --dark: #111827;
+  --gray: #6b7280;
+  --light-gray: #e5e7eb;
+  --white: #ffffff;
+  --page-bg: #f9fafb;
+}
+
+
+/* =========================
+   GLOBAL
+========================= */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  color: var(--dark);
+  background: var(--white);
+}
+
+button,
+a {
+  font-family: inherit;
+}
+
+button {
+  cursor: pointer;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+
+/* =========================
+   GRADIENT
+========================= */
+
+.gradient-text {
+  background: var(--brand-gradient);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
