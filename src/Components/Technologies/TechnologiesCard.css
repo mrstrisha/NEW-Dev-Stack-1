@@ -1,0 +1,116 @@
+.technology-card {
+  background: white;
+  border: 1px solid var(--light-gray);
+
+  border-radius: 12px;
+
+  padding: 24px;
+
+  min-height: 330px;
+
+  display: flex;
+  flex-direction: column;
+
+}
+
+.card-top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  margin-bottom: 20px;
+}
+
+.technology-icon {
+  width: 50px;
+  height: 50px;
+  object-fit: contain;
+}
+
+.badge {
+  background: #fff1f2;
+  color: #e11d48;
+
+  padding: 6px 10px;
+
+  border-radius: 20px;
+
+  font-size: 11px;
+  font-weight: 700;
+}
+
+.technology-card h3 {
+  font-size: 21px;
+  margin-bottom: 10px;
+}
+
+.card-description {
+  color: var(--gray);
+  font-size: 14px;
+  line-height: 1.6;
+
+  margin-bottom: 18px;
+}
+
+.card-info {
+  display: flex;
+  gap: 8px;
+
+  margin-top: auto;
+  margin-bottom: 20px;
+}
+
+.category,
+.difficulty {
+  padding: 6px 9px;
+
+  border-radius: 6px;
+
+  font-size: 11px;
+  font-weight: 600;
+}
+
+.category {
+  background: #f3e8ff;
+  color: #7c3aed;
+}
+
+.difficulty {
+  background: #f3f4f6;
+  color: #4b5563;
+}
+
+.card-bottom {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.rating {
+  color: #f59e0b;
+  font-size: 14px;
+  font-weight: 700;
+}
+
+.add-button,
+.added-button {
+  border: none;
+
+  padding: 10px 13px;
+
+  border-radius: 7px;
+
+  font-size: 12px;
+  font-weight: 600;
+}
+
+.add-button {
+  color: white;
+  background: var(--brand-gradient);
+}
+
+.added-button {
+  color: #16a34a;
+  background: #dcfce7;
+  cursor: not-allowed;
+}

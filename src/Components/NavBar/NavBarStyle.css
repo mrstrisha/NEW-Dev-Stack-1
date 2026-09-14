@@ -97,3 +97,62 @@
 .mobile-menu {
   display: none;
 }
+
+
+
+
+
+@media (max-width: 768px) {
+
+  .nav-container {
+    height: 65px;
+    padding: 0 16px;
+  }
+
+  .hamburger {
+    display: block;
+  }
+
+  .brand {
+    font-size: 18px;
+  }
+
+  .brand-icon {
+    width: 30px;
+    height: 30px;
+  }
+
+  .nav-links {
+    display: none;
+  }
+
+  .auth-buttons {
+    gap: 8px;
+  }
+
+  .sign-in {
+    font-size: 12px;
+  }
+
+  .sign-up {
+    padding: 9px 13px;
+    font-size: 12px;
+  }
+
+  .mobile-menu {
+    display: flex;
+    flex-direction: column;
+
+    gap: 18px;
+
+    padding: 20px;
+
+    border-top: 1px solid var(--light-gray);
+    background: white;
+  }
+
+  .mobile-menu a {
+    font-size: 14px;
+    font-weight: 600;
+  }
+}
